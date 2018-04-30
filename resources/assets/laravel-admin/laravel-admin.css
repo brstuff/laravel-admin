@@ -3,3 +3,9 @@ input.content {
     padding: 6px 12px !important;
     margin: 0 !important;
 }
+
+#filter-bar ul { list-style: none; margin: 5px 0px; padding-left: 0px; } 
+#filter-bar ul li { display: inline-block; white-space: nowrap; background-color: #F4F4F4; border-radius: 15px; padding: 3px 10px; margin: 5px 10px 0px 0px; }
+#filter-bar ul li .title{ font-weight: bold; color: #337AB7; } 
+#filter-bar ul li a.remove{ color: #337AB7; margin-right: 3px;} 
+#filter-bar ul li a.remove:hover{ color: #b53232; } 
